@@ -1,0 +1,16 @@
+THREE IDIOTS
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() 
+{
+    int x1,y1,x2,y2;
+    scanf("%d\n %d\n%d\n%d",&x1,&y1,&x2,&y2);
+    double m1=(x1+x2)/2.0;
+   double m2=(y1+y2)/2.0;
+    printf("Binoy's house is located at (%.1f,%.1f)",m1,m2);
+
+
+}
