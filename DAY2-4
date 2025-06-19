@@ -1,0 +1,23 @@
+Eligible for 
+
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+
+  int a,c;
+    char n[50];
+    scanf("%[^\n]s",n);
+    printf("Name of the Student:%s\n",n);
+    scanf("%d\n%d",&a,&c);
+    if((a<=1&&c>=70 )|| (a<=2&&c>=75))
+    {
+        printf("%s is Eligible for Placement",n);
+    }
+    else 
+    {
+        printf("%s is Not Eligible for Placement",n);
+}
+}
